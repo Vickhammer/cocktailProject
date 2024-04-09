@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/cocktail.css">
+    <link rel="stylesheet" href="../cocktailProject/css/normalize.css">
+    <link rel="stylesheet" href="../coctailProject/css/reset.css">
+    <link rel="stylesheet" href="../cocktailProject/css/cocktail.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
@@ -16,7 +16,7 @@
 <body>
     <header> 
         <label for="cocktail-name" class = 'label-text'>What liquor do you like?</label>
-            <input type ='text' id = 'cocktail' name = 'cocktail-name' class ='user-input-text'>
+            <input type ='text' id = 'cocktail' name = 'cocktail-name'>
         <button type ="submit" id="submit-button">Let's take a look</button>
     </header>
     <main>
@@ -25,7 +25,7 @@
                 <div class="swiper-slide">
                     <div class="drinkCard">
                         <h2>Bartender</h2>
-                        <img src="DrinkShaker.jpg" alt="">
+                        <img src="../cocktailProject/html/DrinkShaker.jpg" alt="">
                         <h3>Instructions</h3>
                         <p>Preparing your drink...</p>
                     </div>
@@ -36,7 +36,7 @@
         </div>
     </main>
 
-    <script type="text/javascript" src="cocktail.js"></script>
+    <script type="text/javascript" src="../cocktailProject/html/cocktail.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
         let swiper = new Swiper(".swiper-container", {
